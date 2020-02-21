@@ -11,5 +11,5 @@ $(document).ready(function() {
 function initializePage() {
 	// your code here
 }
-$('.btn btn-default likeBtn').click(ga("send", "event", 'like', 'click'));
+$('.btn btn-default likeBtn').click(ga("send", 'click', 'like'));
 
